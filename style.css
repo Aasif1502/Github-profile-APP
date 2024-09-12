@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+body {
+    background-color: rgb(114, 114, 195);
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 70vh;
+    margin: 30px auto;
+    align-items: center;
+}
+.info {
+    display: flex; 
+    margin: 10px auto;
+   justify-content: center;
+   padding: 10px;
+   background-color: rgb(148, 148, 226);
+   border-radius: 10px;
+     
+}
+img {
+    width: 70px;
+    height: 70px;
+    margin: auto 40px;
+    border-radius: 50%;
+    border: solid black 2px;
+}
+.data {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     
+}
+.reach {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    
+}
+.reach div {
+    margin-right: 20px;
+    
+}
+ 
+.repos .repo {
+    padding: 1px 2px;
+    margin-right: 6px;
+    background-color: rgb(73, 73, 228);
+    color: white;
+    border-radius: 5px;
+    font-size: 10px; 
+    text-decoration: none;
+}
+h3 {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input {
+    height: 30px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(144, 144, 231);
+    color: white;
+}
+h1 {
+    font-style: oblique;
+    font-size: 50px;
+    margin: 30px;
+}
+.reach div span {
+    margin-right: 5px;
+}
+
